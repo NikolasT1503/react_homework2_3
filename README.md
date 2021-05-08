@@ -1,12 +1,3 @@
-@startuml
-[/src] --> [/static/js/main.chunk.js]
-[/node_modules] --> [/static/js/vendors~main.chunk.js]
-[/public/favicon.ico] --> [/favicon.ico]
-[/public/manifest.json] --> [/manifest.json]
-[/manifest.json] --> [index.html]
-[/public/index.html] --> [index.html]
-[/favicon.ico] --> [index.html]
-[/static/js/main.chunk.js] --> [index.html]
-[/static/js/vendors~main.chunk.js] --> [index.html]
-[/bundle.js] -l-> [index.html]
-@enduml
+# react_homework2_3
+
+Рассчет суммы n первых чисел + material
